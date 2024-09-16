@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mostafizur Rahman's Portfolio</title>
+
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 
@@ -37,24 +41,24 @@
         <a href="#contact" class="sm:hover:bg-pink-600 md:px-4 rounded-lg md:py-2 transition duration-300">Contact</a>
     </div>
 
-    <section class="bg-blue-500 text-white text-center py-20  banner">
+    <section class="  font_2  text-center py-20  banner ">
         <div class="container mx-auto ">
             <div class="mb-4">
                 <img src="./Group.png" alt="" class="mx-auto">
             </div>
-            <h1 class="text-4xl font-bold mb-4">Welcome to my Portfolio</h1>
+            <h1 class="text-7xl font-bold mb-4 header drop-shadow-2xl">Welcome to my Portfolio</h1>
             <div class="items-center text-center flex justify-center items-center">
-                <p class="text-lg mb-4 w-3/4  ">I am a Computer Science graduate with a fervent passion for coding, particularly within the realm of web programming. I possess a keen interest in networking and fostering connections with individuals to expand my knowledge and understanding of diverse perspectives.</p>
+                <p class="text-lg mb-4 w-3/4  header2">I am a Computer Science graduate with a fervent passion for coding, particularly within the realm of web programming. I possess a keen interest in networking and fostering connections with individuals to expand my knowledge and understanding of diverse perspectives.</p>
             </div>
             <a href="#contact">
-                <button class="bg-gray-800 text-white-800 py-2 px-4 rounded-lg hover:bg-gray-700">Contact with me</button>
+                <button class="bg-gradient-to-r from-[#40c9ff] to-[#e81cff] text-white py-2 px-4 rounded-lg hover:bg-gray-700">Contact with me</button>
             </a>
         </div>
     </section>
 
     <!-- <div class="container mx-auto px-10 sm:px-10 md:px-24"> -->
         <section id="projects" class="py-12 mx-auto px-10 sm:px-10 md:px-24">
-            <h2 class="text-center text-4xl  mb-8 font_bold">Front-end Projects</h2>
+            <h2 class="text-center text-5xl  mb-16 mt-12 font_bold header">Front-end Projects</h2>
             <div class="flex flex-wrap gap-4">
                 <!-- Repeat this block for each project -->
              
@@ -326,30 +330,36 @@
                 <!-- Add other projects similarly -->
             </div>
         </section>
-   
+        <h2 class="text-center text-5xl font-bold mb-8 font_bold header">About Me</h2>
         <section id="about" class="py-12 bg3 px-12 text-xl text-gray-800 font_2">
-            <h2 class="text-center text-3xl font-bold mb-8 font_bold">About Me</h2>
+            
             <div class="flex flex-col items-center  lg:flex-row md:justify-center">
-                <div class="w-full lg:w-1/3 mb-4 md:mb-0 transition-all duration-1000 hover:scale-y-110 hover:scale-x-110">
-                    <img src="me.jpg" alt="Mostafizur Rahman" class="rounded-full w-60 h-60 object-cover mx-auto border-8">
+                <div class="w-full lg:w-1/3 mb-4 md:mb-0 transition-all duration-1000 hover:scale-y-105 hover:scale-x-105    ">
+                    <img src="me.jpg" alt="Mostafizur Rahman" class="rounded-full w-60 h-60 object-cover mx-auto  gradient-border ">
+
+                                    <!-- <img
+                class="mask mask-squircle gradient-border"
+                src="./me.jpg" /> -->
+
+                
                 </div>
                 <div class="w-full md:w-2/3">
-                    <p class="text-lg mb-4 sm:text-center md:text-left transition-all duration-300 rounded-sm hover:bg-gray-200 md:px-4 md:py-4 transition-all duration-500 hover:scale-y-105 hover:scale-x-105">
+                    <p class="text-lg mb-4 sm:text-center md:text-left transition-all duration-300 rounded-sm hover:bg-gray-200 hover:bg-gray-200  md:px-4 md:py-4 transition-all duration-500 hover:scale-y-105 hover:scale-x-105 text-white hover:text-[#046890]">
                         I am a Computer Science graduate with a fervent passion for coding, particularly within the realm of web programming. I possess a keen interest in networking and fostering connections with individuals to expand my knowledge and understanding of diverse perspectives.
                     </p>
-                    <div class="border-t border-gray-300 py-4 hover:bg-gray-200 md:px-4 transition-all duration-300 hover:rounded-sm transition-all duration-500 hover:scale-y-105 hover:scale-x-105">
+                    <div class="border-t border-gray-300 py-4 hover:bg-gray-200 md:px-4 transition-all duration-300 hover:rounded-sm transition-all duration-500 hover:scale-y-105 hover:scale-x-105 text-white hover:text-[#046890]">
                         <p><strong class="font-semibold">Name:</strong> MD. Mostafizur Rahman</p>
                     </div>
-                    <div class="border-t border-gray-300 hover:bg-gray-200 md:px-4 py-4 transition-all duration-300 hover:rounded-sm transition-all duration-500 hover:scale-y-105 hover:scale-x-105">
+                    <div class="border-t border-gray-300 hover:bg-gray-200 md:px-4 py-4 transition-all duration-300 hover:rounded-sm transition-all duration-500 hover:scale-y-105 hover:scale-x-105 text-white hover:text-[#046890]">
                         <p><strong class="font-semibold">Education:</strong> <br> Bachelor of Computer Science & Engineering , United International University, CGPA: 3.79 (2024) 
                         <br> Govt Sayed Hatem Ali College, Barisal GPA : 5.00 (Science) (2018) <br>
                         Udayan Secondary School, Barisal GPA : 5.00 (Science) (2016)
                         </p>
                     </div>
-                    <div class="border-t border-gray-300 py-4 hover:bg-gray-200 md:px-4 transition-all duration-300 hover:rounded-sm transition-all duration-500 hover:scale-y-105 hover:scale-x-105">
+                    <div class="border-t border-gray-300 py-4 hover:bg-gray-200 md:px-4 transition-all duration-300 hover:rounded-sm transition-all duration-500 hover:scale-y-105 hover:scale-x-105 text-white hover:text-[#046890] ">
                         <p><strong class="font-semibold">Languages:</strong> Bangla (Native), English (Fluent)</p>
                     </div>
-                    <div class="border-t border-gray-300 py-4 hover:bg-gray-200 md:px-4 transition-all duration-300 hover:rounded-sm transition-all duration-500 hover:scale-y-105 hover:scale-x-105">
+                    <div class="border-t border-gray-300 py-4 hover:bg-gray-200 md:px-4 transition-all duration-300 hover:rounded-sm transition-all duration-500 hover:scale-y-105 hover:scale-x-105 text-white hover:text-[#046890]">
                         <p><strong class="font-semibold">Experience:</strong> Center for International Affairs and Cooperation (CIAC) at UIU, Undergraduate Assistant at UIU</p>
                     </div>
                 </div>
@@ -357,8 +367,8 @@
             </div>
         </section>
 
-        <section id="skills" class="py-12 mx-auto px-10 sm:px-10 md:px-24">
-            <h2 class="text-center text-3xl font-bold mb-8 font_bold">Skills</h2>
+        <section id="skills" class="py-12 mx-auto px-10 sm:px-10 md:px-24 mt-12 mb-12">
+            <h2 class="text-center text-5xl font-bold mb-8 font_bold header">Skills</h2>
             <div class="bg-gray-100 bg3">
                 <div class="grid grid-cols-1 md:grid-cols-2">
                    
@@ -410,32 +420,33 @@
             </div>
         </section>
 
-        <section id="contact" class="px-8 py-12 bg-gray-100 bg-gradient-to-b from-[#40c9ff]  to-[#e81cff] ">
+        <h2 class="header text-center text-5xl font-bold mb-6 font_bold">Contact</h2>
+        <section id="contact" class="px-8 py-12 bg">
             <div class="max-w-4xl mx-auto md:px-6 ">
-                <h2 class="text-center text-4xl font-bold mb-6 text-gray-800 font_bold">Contact</h2>
-                <p class="text-center text-lg mb-8 text-gray-600">Feel free to reach out to me via email or connect with me on social media.</p>
+             
+                <p class="text-center text-lg mb-8 text-white">Feel free to reach out to me via email or connect with me on social media.</p>
                 
                 <div class="bg-white shadow-lg rounded-lg p-2  md:p-6 mb-8">
                     <div class="text-center mb-4">
-                        <p class="text-lg font-medium text-gray-700 mb-2">
-                            <strong class="text-sm">Email:</strong> 
-                            <a href="mailto:mrahman202003@bscse.uiu.ac.bd" class="text-blue-600 hover:underline text-sm md:text-xl">
+                        <p class="text-lg font-medium text-gray-700 mb-2 transition-all duration-500 hover:scale-y-105 hover:scale-x-105">
+                            <strong class="">Email:</strong> 
+                            <a href="mailto:mrahman202003@bscse.uiu.ac.bd" class="header hover:underline text-sm md:text-xl">
                                 mrahman202003@bscse.uiu.ac.bd
                             </a>
                         </p>
-                        <p class="text-lg font-medium text-gray-700">
+                        <p class="text-lg font-medium text-gray-700 transition-all duration-500 hover:scale-y-105 hover:scale-x-105">
                             <strong>Phone:</strong> 
-                            <a href="tel:+8801791604420" class="text-blue-600 hover:underline  text-sm md:text-xl">
+                            <a href="tel:+8801791604420" class="header hover:underline  text-sm md:text-xl">
                             +8801791604420
                             </a>
                         </p>
                     </div>
                     
                     <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
-                        <a href="https://www.linkedin.com/in/md-mostafizur-rahman-78bb511a4/" target="_blank" class=" transition duration-300">
+                        <a href="https://www.linkedin.com/in/md-mostafizur-rahman-78bb511a4/" target="_blank" class=" transition duration-300 transition-all duration-500 hover:scale-y-105 hover:scale-x-105">
                             <img class="w-24" src="./Linkedin-Logo-e1660320077673.png" alt="">
                         </a>
-                        <a href="https://github.com/MostafizurRahman199" target="_blank" class="w-24 transition duration-300">
+                        <a href="https://github.com/MostafizurRahman199" target="_blank" class="w-24 transition duration-300 transition-all duration-500 hover:scale-y-105 hover:scale-x-105">
                             <img src="./github_PNG23.png" alt="">
                             
                         </a>
