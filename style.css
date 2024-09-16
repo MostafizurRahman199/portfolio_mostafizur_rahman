@@ -24,8 +24,28 @@
     background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
 }
 
+.bg2hover{
+    transition:all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    
+}
+
+.bg2hover:hover{
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    transition:all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.bg3{
+    background: linear-gradient(90deg, hsla(279, 83%, 70%, 1) 0%, hsla(321, 90%, 70%, 1) 100%);
+}
+
 .bgColor:hover{
-    background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+    /* background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%); */
+
+    background: linear-gradient(90deg, hsla(279, 83%, 70%, 1) 0%, hsla(321, 90%, 70%, 1) 100%);
 }
 
 .font_bold{
