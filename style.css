@@ -120,7 +120,7 @@
     background: linear-gradient(to right, #d7e9f1, #1cb0ca); /* Initial gradient background */
     padding: 10px; /* Padding to simulate border thickness */
     border-radius: 8px; /* Border radius for rounded corners */
-    animation: gradientSwap1 20s alternate-reverse infinite; /* Animation for gradient color swap */
+    animation: gradientSwap1 10s linear infinite; /* Animation for gradient color swap */
   }
   
   .gradient-border .content {
